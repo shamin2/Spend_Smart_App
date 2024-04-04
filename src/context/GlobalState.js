@@ -6,7 +6,7 @@ const initialState = {
   transactions: []
 }
 
-// Creating context here
+// Creating the context here
 export const GlobalContext = createContext(initialState);
 
 // Providing the component
@@ -15,14 +15,14 @@ export const GlobalProvider = ({ children }) => {
 
   // Actions
   function deleteTransaction(id) {
-    dispatch({
+    dispatch({     //We are dispatching an action with an id here
       type: 'DELETE_TRANSACTION',
       payload: id
     });
   }
 
   function addTransaction(transaction) {
-    dispatch({
+    dispatch({           
       type: 'ADD_TRANSACTION',
       payload: transaction
     });
