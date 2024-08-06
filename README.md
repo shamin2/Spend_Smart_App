@@ -66,3 +66,4 @@ For any questions or suggestions, please contact:
 - **Email:** shaminyasar2001@gmail.com
 - **Portfolio:** [here](https://shamin-portfolio.netlify.app/)
 
+Check out the project live [here](https://spend-smart-app.netlify.app/).
