@@ -1,7 +1,7 @@
 
-# 🚀 Expense Tracker
+# 🚀 Spend Smart
 
-This Expense Tracker web app is designed to help first-year university students manage their finances effectively. Entering university often brings new financial challenges, and many students find themselves struggling to budget their expenses properly. This can lead to maxed-out credit cards and significant debt, creating financial stress that impacts their academic and personal lives.
+This Spend Smart web app is designed to help first-year university students manage their finances effectively. Entering university often brings new financial challenges, and many students find themselves struggling to budget their expenses properly. This can lead to maxed-out credit cards and significant debt, creating financial stress that impacts their academic and personal lives.
 
 **Our app aims to address these issues by providing a user-friendly platform that helps students track their expenses and budget accordingly. By using this app, students can gain better control over their finances, avoid unnecessary debt, and develop healthy financial habits for the future.**
 
