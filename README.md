@@ -39,6 +39,16 @@ This Spend Smart web app is designed to help first-year university students mana
   - Main HTML file
 \`\`\`
 
+## 🧪 Unit Testing
+The app includes unit tests for key components to ensure that each function works as expected and provides a reliable experience. Using Jest and React Testing Library, we've tested the following components:
+
+- **AddTransaction**: Verifies that new transactions are added correctly and prevents invalid data submission.
+- **Balance**: Confirms the balance display based on user transactions.
+- **IncomeExpenses**: Checks that income and expense totals are calculated and displayed accurately.
+- **Transaction**: Ensures each transaction displays correctly and can be deleted.
+- **TransactionList**: Validates that all transactions are rendered as expected.
+- **Header**: Simple check to ensure the app header displays as intended.
+
 ## 🎨 Styling
 
 The app is styled using a custom CSS file located at \`src/App.css\`. Key styles include:
