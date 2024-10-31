@@ -17,6 +17,7 @@ This Spend Smart web app is designed to help first-year university students mana
 - **Frontend**: React with Vite
 - **Styling**: CSS with custom styles
 - **State Management**: React hooks
+- **Testing**: Jest and React Testing Library
 
 ## 📂 Project Structure
 
@@ -40,7 +41,7 @@ This Spend Smart web app is designed to help first-year university students mana
 \`\`\`
 
 ## 🧪 Unit Testing
-The app includes unit tests for key components to ensure that each function works as expected and provides a reliable experience. Using Jest and React Testing Library, we've tested the following components:
+The app includes unit tests for key components to ensure that each function works as expected and provides a reliable experience. Using **Jest** and **React Testing Library**, we've tested the following components:
 
 - **AddTransaction**: Verifies that new transactions are added correctly and prevents invalid data submission.
 - **Balance**: Confirms the balance display based on user transactions.
