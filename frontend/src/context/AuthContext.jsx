@@ -4,8 +4,7 @@ import React, {
   useState,
 } from 'react';
 
-const API_URL = 'http://localhost:5002/api/auth';
-
+const API_URL = `${import.meta.env.VITE_API_URL}/api/auth`;
 export const AuthContext = createContext();
 
 export const AuthProvider = ({ children }) => {

@@ -9,8 +9,7 @@ import React, {
 import AppReducer from './AppReducer';
 import { AuthContext } from './AuthContext';
 
-const API_URL = 'http://localhost:5002/api/transactions';
-
+const API_URL = `${import.meta.env.VITE_API_URL}/api/transactions`;
 const initialState = {
   transactions: [],
 };

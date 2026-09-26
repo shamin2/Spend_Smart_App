@@ -1,11 +1,10 @@
+import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
-import dotenv from 'dotenv';
 import connectDB from './config/db.js';
 import transactionRoutes from './routes/transactionRoutes.js';
 import authRoutes from './routes/authRoutes.js';
-
-dotenv.config();
+import insightRoutes from './routes/insightRoutes.js';
 
 const app = express();
 
@@ -22,6 +21,7 @@ app.get('/api/health', (req, res) => {
 
 app.use('/api/transactions', transactionRoutes);
 app.use('/api/auth', authRoutes);
+app.use('/api/insights', insightRoutes);
 
 const PORT = process.env.PORT || 5002;
 

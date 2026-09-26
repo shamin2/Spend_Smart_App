@@ -13,6 +13,7 @@ import { IncomeExpenseChart } from './components/IncomeExpenseChart';
 import { ConfirmModal } from './components/ConfirmModal';
 import { Notification } from './components/Notification';
 import { BalanceWarning } from './components/BalanceWarning';
+import { SpendingInsights } from './components/SpendingInsights';
 
 import { GlobalProvider } from './context/GlobalState';
 
@@ -99,6 +100,8 @@ const Dashboard = () => {
             <ExpenseChart />
             <IncomeExpenseChart />
           </section>
+
+          <SpendingInsights />
 
           <section className="dashboard__content">
             <TransactionList />
